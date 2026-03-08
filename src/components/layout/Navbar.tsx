@@ -47,7 +47,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-[72px]">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-1 font-playfair text-2xl font-bold text-charcoal">
-            Care<span className="text-sage">.xyz</span>
+            Health<span className="text-sage">- Care</span>
             <span className="w-2 h-2 bg-terracotta rounded-full ml-0.5 inline-block" />
           </Link>
 
