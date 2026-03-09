@@ -8,7 +8,7 @@ export function Footer() {
           {/* Brand */}
           <div>
             <Link href="/" className="font-playfair text-2xl font-bold text-white flex items-center gap-1 mb-4">
-              Care<span className="text-sage-light">.xyz</span>
+              Health-Care
               <span className="w-2 h-2 bg-terracotta rounded-full ml-0.5" />
             </Link>
             <p className="text-sm leading-relaxed max-w-xs">
