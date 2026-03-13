@@ -4,7 +4,6 @@ export async function POST(req: NextRequest) {
   try {
     const { booking, userEmail, userName } = await req.json();
 
-    // Build HTML email
     const emailHtml = `
 <!DOCTYPE html>
 <html>
@@ -72,7 +71,6 @@ export async function POST(req: NextRequest) {
 </html>
     `;
 
-    // Send via nodemailer if configured
     if (process.env.EMAIL_USER && process.env.EMAIL_PASS) {
       const nodemailer = await import('nodemailer');
       const transporter = nodemailer.default.createTransport({
@@ -92,7 +90,6 @@ export async function POST(req: NextRequest) {
         html: emailHtml,
       });
     } else {
-      // Log invoice in dev mode
       console.log(`[INVOICE] Email would be sent to: ${userEmail}`);
       console.log(`[INVOICE] Booking ID: ${booking.id}, Total: ৳${booking.total}`);
     }
