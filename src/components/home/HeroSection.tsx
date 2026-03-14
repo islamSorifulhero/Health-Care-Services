@@ -58,11 +58,12 @@ export function HeroSection() {
         <div className="flex justify-center items-center relative">
           <div className="relative w-[340px] h-[420px] lg:w-[400px] lg:h-[480px]">
             {/* Main card */}
-            <div className="absolute inset-0 bg-gradient-to-br from-sage to-sage-dark rounded-[40px_40px_80px_40px] overflow-hidden flex items-end p-7">
-              <div className="absolute top-[-20px] right-[-10px] text-[12rem] opacity-20 leading-none select-none">🌸</div>
-              <p className="font-playfair text-xl italic text-white/90 relative z-10">
+            <div className="absolute inset-0  overflow-hidden flex items-end p-7">
+              <img src="images/hero1.jpg" alt="" />
+              {/* <div className="absolute top-[-20px] right-[-10px] text-[12rem] opacity-20 leading-none select-none">🌸</div> */}
+              {/* <p className="font-playfair text-xl italic text-white/90 relative z-10">
                 &ldquo;Every family deserves the best care&rdquo;
-              </p>
+              </p> */}
             </div>
 
             {/* Floating card 1 */}
