@@ -60,10 +60,6 @@ export function HeroSection() {
             {/* Main card */}
             <div className="absolute inset-0  overflow-hidden flex items-end p-7">
               <img src="images/hero1.jpg" alt="" />
-              {/* <div className="absolute top-[-20px] right-[-10px] text-[12rem] opacity-20 leading-none select-none">🌸</div> */}
-              {/* <p className="font-playfair text-xl italic text-white/90 relative z-10">
-                &ldquo;Every family deserves the best care&rdquo;
-              </p> */}
             </div>
 
             {/* Floating card 1 */}
