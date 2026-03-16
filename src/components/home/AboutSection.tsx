@@ -5,13 +5,10 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-warm-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-[32px] h-[380px] flex items-center justify-center text-[9rem] relative overflow-hidden">
-            🤝
-            <div className="absolute inset-0 bg-gradient-to-t from-sage/10 to-transparent" />
-          </div>
+          <img src="/images/about-image.jpg" alt="" />
           <div>
             <span className="inline-block bg-light-gray text-mid-gray px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-4">
-              About Care.xyz
+              About Health-Care
             </span>
             <h2 className="font-playfair text-4xl font-bold text-[#1A1A1A] mb-4 leading-tight">
               We Make Caregiving{' '}
