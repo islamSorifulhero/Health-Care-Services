@@ -12,10 +12,10 @@ export function HeroSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center w-full">
         {/* Content */}
         <div className="animate-fade-up">
-          <div className="inline-flex items-center gap-2 bg-sage-light/30 text-sage-dark px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wide">
+          {/* <div className="inline-flex items-center gap-2 bg-sage-light/30 text-sage-dark px-4 py-1.5 rounded-full text-xs font-semibold mb-6 tracking-wide">
             ✦ Trusted by 10,000+ Families
-          </div>
-          <h1 className="font-playfair text-5xl lg:text-6xl font-bold text-[#1A1A1A] leading-[1.1] mb-5">
+          </div> */}
+          <h1 className="font-playfair text-4xl lg:text-6xl font-bold text-[#1A1A1A] leading-[1.1] mb-5">
             Caring Hands for Your{' '}
             <em className="text-sage not-italic">Beloved</em>{' '}
             Family Members
@@ -55,24 +55,24 @@ export function HeroSection() {
         </div>
 
         {/* Visual */}
-        <div className="flex justify-center items-center relative">
-          <div className="relative w-[340px] h-[420px] lg:w-[400px] lg:h-[480px]">
-            {/* Main card */}
-            <div className="absolute inset-0  overflow-hidden flex items-end p-7">
-              <img src="images/hero1.jpg" alt="" />
-            </div>
+        <img src="images/about.jpg" alt="" />
+        {/* <div className="flex justify-center items-center relative"> */}
+          {/* <div className="relative w-[340px] h-[420px] lg:w-[400px] lg:h-[480px]"> */}
+          {/* Main card */}
+          {/* <div className="absolute inset-0  overflow-hidden flex items-end p-7"> */}
+          </div>
 
-            {/* Floating card 1 */}
-            <div className="absolute top-6 right-[-30px] lg:right-[-50px] bg-white rounded-2xl p-3.5 shadow-card-lg flex items-center gap-3 animate-float">
+          {/* Floating card 1 */}
+          {/* <div className="absolute top-6 right-[-30px] lg:right-[-50px] bg-white rounded-2xl p-3.5 shadow-card-lg flex items-center gap-3 animate-float">
               <span className="text-2xl">👶</span>
               <div>
                 <p className="text-xs font-semibold text-charcoal">Baby Care Available</p>
                 <p className="text-xs text-mid-gray">24/7 Support</p>
               </div>
-            </div>
+            </div> */}
 
-            {/* Floating card 2 */}
-            <div
+          {/* Floating card 2 */}
+          {/* <div
               className="absolute bottom-20 left-[-30px] lg:left-[-50px] bg-white rounded-2xl p-3.5 shadow-card-lg flex items-center gap-3 animate-float"
               style={{ animationDelay: '1.5s' }}
             >
@@ -81,10 +81,10 @@ export function HeroSection() {
                 <p className="text-xs font-semibold text-charcoal">4.9/5 Rating</p>
                 <p className="text-xs text-mid-gray">Verified Reviews</p>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </div> */}
+        {/* </div> */}
+      {/* </div> */}
+      {/* </div> */}
     </section>
   );
 }

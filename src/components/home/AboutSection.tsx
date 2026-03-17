@@ -5,7 +5,7 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-warm-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <img src="/images/about-image.jpg" alt="" />
+          <img src="/images/about-image.jpg" alt="about-section-image" />
           <div>
             <span className="inline-block bg-light-gray text-mid-gray px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-4">
               About Health-Care
