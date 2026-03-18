@@ -51,7 +51,7 @@ export function HeroSection() {
           </div>
         </div>
 
-        <img src="images/about.jpg" alt="" />
+        <img className='rounded-2xl' src="images/about.jpg" alt="" />
 
       </div>
     </section>

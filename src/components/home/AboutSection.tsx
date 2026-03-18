@@ -5,7 +5,7 @@ export function AboutSection() {
     <section id="about" className="py-20 bg-warm-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          <img src="/images/about-image.jpg" alt="about-section-image" />
+          <img className="rounded-2xl" src="images/about-image.jpg" alt="about-section-image" />
           <div>
             <span className="inline-block bg-light-gray text-mid-gray px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-4">
               About Health-Care
@@ -15,7 +15,7 @@ export function AboutSection() {
               <em className="text-sage not-italic">Effortless</em> & Secure
             </h2>
             <p className="text-mid-gray leading-relaxed mb-4">
-              Care.xyz is Bangladesh&apos;s most trusted platform connecting families with professional, background-verified caretakers. Whether you need someone to look after your baby, support your elderly parents, or assist sick family members — we&apos;ve got you covered.
+              Health-Care is Bangladesh&apos;s most trusted platform connecting families with professional, background-verified caretakers. Whether you need someone to look after your baby, support your elderly parents, or assist sick family members — we&apos;ve got you covered.
             </p>
             <p className="text-mid-gray leading-relaxed mb-8">
               Every caretaker on our platform undergoes thorough background checks, training verification, and skill assessments to ensure your family&apos;s safety and comfort.
