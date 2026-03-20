@@ -4,7 +4,7 @@ export const SERVICES = [
     id: 'baby-care',
     name: 'Baby Care',
     shortName: 'Babysitting',
-    icon: '👶',
+    icon: '👪',
     color: '#C4714A',
     bgGradient: 'from-orange-50 to-orange-100',
     cardBg: 'bg-orange-50',

@@ -12,7 +12,7 @@ export function ServicesSection() {
             Our Services
           </span>
           <h2 className="font-playfair text-4xl font-bold text-[#1A1A1A] mb-3">
-            Health Care Services Tailored for Every Need
+            Health Care Services Tailored For Every Need
           </h2>
           <p className="text-mid-gray max-w-md mx-auto">
             Professional, compassionate care for every stage of life — from newborns to seniors
