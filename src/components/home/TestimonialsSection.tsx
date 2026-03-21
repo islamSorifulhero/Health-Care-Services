@@ -12,7 +12,7 @@ export function TestimonialsSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-14">
           <span className="inline-block bg-light-gray text-mid-gray px-4 py-1 rounded-full text-xs font-semibold uppercase tracking-widest mb-4">Testimonials</span>
-          <h2 className="font-playfair text-4xl font-bold text-[#1A1A1A] mb-3">Families Love Care.xyz</h2>
+          <h2 className="font-playfair text-4xl font-bold text-[#1A1A1A] mb-3">Families Love Health-Care</h2>
           <p className="text-mid-gray max-w-md mx-auto">Real stories from real families who found trusted care through our platform</p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
