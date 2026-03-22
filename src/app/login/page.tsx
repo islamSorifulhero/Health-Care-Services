@@ -48,7 +48,7 @@ export default function LoginPage() {
       <div className="bg-white rounded-3xl p-10 max-w-md w-full border border-border shadow-card-lg">
         <div className="text-center mb-8">
           <Link href="/" className="font-playfair text-2xl font-bold text-charcoal">
-            Care<span className="text-sage">.xyz</span><span className="w-2 h-2 bg-terracotta rounded-full inline-block ml-0.5 mb-1" />
+            Health<span className="text-sage">Care</span><span className="w-2 h-2 bg-terracotta rounded-full inline-block ml-0.5 mb-1" />
           </Link>
           <h2 className="font-playfair text-3xl font-bold text-[#1A1A1A] mt-4 mb-1">Welcome Back</h2>
           <p className="text-mid-gray text-sm">Sign in to access your bookings and services</p>
