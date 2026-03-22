@@ -35,7 +35,7 @@ export async function POST(req: NextRequest) {
 <body>
 <div class="container">
   <div class="header">
-    <h1>Care.xyz</h1>
+    <h1>Health-Care</h1>
     <p>Booking Confirmation & Invoice</p>
   </div>
   <div class="body">
@@ -63,7 +63,7 @@ export async function POST(req: NextRequest) {
     <p style="color:#6B6B6B;font-size:13px;line-height:1.7;">If you have any questions, feel free to contact our support team. We're always here to help ensure you get the best care for your family.</p>
   </div>
   <div class="footer">
-    © 2025 Care.xyz • Made with ❤️ in Bangladesh<br/>
+    © 2025 Health-Care • Made with ❤️ in Bangladesh<br/>
     This is an automated invoice email.
   </div>
 </div>
@@ -84,7 +84,7 @@ export async function POST(req: NextRequest) {
       });
 
       await transporter.sendMail({
-        from: process.env.EMAIL_FROM || `Care.xyz <${process.env.EMAIL_USER}>`,
+        from: process.env.EMAIL_FROM || `Health-Care <${process.env.EMAIL_USER}>`,
         to: userEmail,
         subject: `✅ Booking Confirmed – ${booking.serviceName} | ${booking.id}`,
         html: emailHtml,

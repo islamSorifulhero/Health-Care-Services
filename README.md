@@ -1,4 +1,4 @@
-# Care.xyz – Trusted Care Services Platform
+# Health-Care – Trusted Care Services Platform
 
 A full-featured Next.js 14 web application for booking babysitting, elderly care, and sick care services.
 
