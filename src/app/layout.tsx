@@ -7,12 +7,12 @@ import { BookingProvider } from '@/context/BookingContext';
 import { Toaster } from 'react-hot-toast';
 
 export const metadata: Metadata = {
-  title: 'Care.xyz – Trusted Baby & Elderly Care Services',
+  title: 'Health-Care – Trusted Baby & Elderly Care Services',
   description:
-    'Care.xyz – Bangladesh\'s most trusted platform for professional babysitting, elderly care, and sick care services. Book verified caretakers easily and securely.',
+    'Health-Care – Bangladesh\'s most trusted platform for professional babysitting, elderly care, and sick care services. Book verified caretakers easily and securely.',
   keywords: 'baby care, elderly care, caretaker, babysitter, home care, Bangladesh',
   openGraph: {
-    title: 'Care.xyz – Trusted Care Services',
+    title: 'Health-Care – Trusted Care Services',
     description: 'Find verified caretakers for your children, elderly parents, or sick family members.',
     type: 'website',
   },

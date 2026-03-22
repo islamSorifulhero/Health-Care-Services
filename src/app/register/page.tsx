@@ -67,7 +67,7 @@ export default function RegisterPage() {
             Care<span className="text-sage">.xyz</span><span className="w-2 h-2 bg-terracotta rounded-full inline-block ml-0.5 mb-1" />
           </Link>
           <h2 className="font-playfair text-3xl font-bold text-[#1A1A1A] mt-4 mb-1">Create Account</h2>
-          <p className="text-mid-gray text-sm">Join Care.xyz and find trusted caretakers for your family</p>
+          <p className="text-mid-gray text-sm">Join Health-Care and find trusted caretakers for your family</p>
         </div>
 
         <button onClick={handleGoogle} className="w-full flex items-center justify-center gap-3 border border-border rounded-2xl py-3 mb-2 font-medium text-sm hover:border-sage hover:shadow-card transition-all">

@@ -7,9 +7,9 @@ import { TestimonialsSection } from '@/components/home/TestimonialsSection';
 import { CtaBanner } from '@/components/home/CtaBanner';
 
 export const metadata: Metadata = {
-  title: 'Care.xyz – Trusted Baby & Elderly Care Services in Bangladesh',
+  title: 'Health-Care – Trusted Baby & Elderly Care Services in Bangladesh',
   description:
-    'Find reliable, background-verified caretakers for your children, elderly parents, or sick family members. Book easily and securely with Care.xyz.',
+    'Find reliable, background-verified caretakers for your children, elderly parents, or sick family members. Book easily and securely with Health-Care.',
 };
 
 export default function HomePage() {
