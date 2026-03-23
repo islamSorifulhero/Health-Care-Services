@@ -52,7 +52,7 @@ export function Footer() {
         </div>
 
         <div className="border-t border-white/10 pt-6 flex flex-col sm:flex-row justify-between items-center gap-3 text-xs">
-          <span>© 2025 Care.xyz. All rights reserved.</span>
+          <span>© 2025 Health-Care. All rights reserved.</span>
           <span className="text-white/30">Made with ❤️ in Bangladesh</span>
         </div>
       </div>

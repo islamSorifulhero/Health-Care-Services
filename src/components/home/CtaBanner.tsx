@@ -9,7 +9,7 @@ export function CtaBanner() {
         <h2 className="font-playfair text-4xl font-bold text-white mb-3 relative z-10">
           Ready to Find the Perfect Caretaker?
         </h2>
-        <p className="text-white/80 mb-8 relative z-10">Join 10,000+ families who trust Care.xyz for their loved ones</p>
+        <p className="text-white/80 mb-8 relative z-10">Join 10,000+ families who trust Health-Care for their loved ones</p>
         <Link
           href="/#services"
           className="inline-flex items-center gap-2 bg-white text-sage-dark font-bold px-8 py-3.5 rounded-full hover:-translate-y-0.5 hover:shadow-xl transition-all relative z-10"

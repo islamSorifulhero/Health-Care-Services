@@ -1,7 +1,7 @@
 'use client';
 
 const TESTIMONIALS = [
-  { name: 'Fatema Begum', location: 'Dhaka, Baby Care', text: 'Care.xyz found us an amazing babysitter within hours. She was so gentle with our 2-year-old. We couldn\'t have asked for better!' },
+  { name: 'Fatema Begum', location: 'Dhaka, Baby Care', text: 'Health-Care found us an amazing babysitter within hours. She was so gentle with our 2-year-old. We couldn\'t have asked for better!' },
   { name: 'Rahim Chowdhury', location: 'Chittagong, Elderly Care', text: 'My father needed round-the-clock care after his surgery. The elderly care specialist was professional, patient, and truly compassionate.' },
   { name: 'Nusrat Jahan', location: 'Sylhet, Sick Care', text: 'Booking was so easy — I did it from my phone in 5 minutes. The caretaker for my sick mother was incredible. Highly recommend!' },
 ];
