@@ -1,4 +1,3 @@
-// src/data/services.ts
 export const SERVICES = [
   {
     id: 'baby-care',
